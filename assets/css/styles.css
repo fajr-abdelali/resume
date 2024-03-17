@@ -1,0 +1,159 @@
+:root {
+  --red: #FF004D;
+  --gray: #999;
+}
+
+ul {
+  padding-left: 20px;
+  font-size: .8em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: .6em;
+}
+
+body .sheet {
+  /* width: 210mm;
+  height: 296mm;
+  box-shadow: 0 .5mm 2mm rgba(0, 0, 0, .3);
+  margin: 5mm auto; */
+  background: #fff;
+}
+
+.resume__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resume__img img {
+  border-radius: 50%;
+}
+
+.separator {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid var(--gray);
+  margin: 0px 10px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: .95rem;
+  font-weight: 300;
+}
+
+i {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  color: var(--red);
+}
+
+i.reverse {
+  color: var(--red);
+  border-radius: 1rem;
+  border: 1px solid var(--red);
+  width: 1.6em;
+  height: 1.6em;
+  margin-right: .5em;
+  display: grid;
+  place-items: center;
+  font-size: .71em;
+}
+
+.name {
+  font-size: 40px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.name>* {
+  display: inline;
+}
+
+.name .first {
+  font-weight: 700;
+}
+
+.name .last {
+  font-weight: 300;
+}
+
+.name .title {
+  font-size: 30px;
+  font-weight: 300;
+  display: block;
+  margin-top: .5rem;
+  color: var(--red);
+}
+
+section {
+  padding: 1.5em 1em 0 2em;
+}
+
+.resume__side section {
+  padding: 1.5em .5em 0 0;
+}
+
+.resume__main {
+  border-right: 1px solid var(--gray);
+}
+
+.resume__section-title {
+  text-transform: capitalize;
+  display: flex;
+  align-items: end;
+}
+
+.xp__job {
+  margin-bottom: 1.4rem;
+}
+
+.xp__job--role {
+  display: block;
+  font-size: 1.18em;
+  font-weight: 600;
+  line-height: 1.25;
+  text-transform: capitalize;
+}
+
+.xp__job--date {
+  display: inline;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+.xp__job--company {
+  display: block;
+  text-transform: capitalize;
+  font-size: .9em;
+}
+
+.xp__job--location {
+  display: inline;
+  font-size: .9em;
+  font-weight: 300;
+}
+
+.xp__details {
+  font-size: .9em;
+  line-height: 1.4;
+}
+
+.resume__skills .item {
+  display: inline;
+  border: 1px solid var(--red);
+  border-radius: 3px;
+  padding: .1em .3em;
+  line-height: 1.8em;
+  font-size: .75em;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
